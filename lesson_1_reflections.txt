@@ -1,0 +1,44 @@
+Just learned that using the diff tool in MAC/Unix or the FC tool in Windows will 
+make life a lot easier when comparing the differences between two files
+
+diff -u game_new.js game_old.js
+
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I will not have to save huge chunks of commented code that I am unsure that I can get rid of completely.
+All I'd have to do is go back to a previous version.
+
+
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Commits will have a purpose and won't be too cluttered.  
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because GIT is meant for code repositories while others are used for document type files.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log gives you the ID of the commit which you can use to run a diff on and compare commits.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+You can always go back and grab your old code!
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git to keep track of my code's lifetime so I can always go back if I make a mistake.
