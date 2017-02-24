@@ -7,3 +7,9 @@ When you initialize a repository a directory .git is created to start tracking. 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It is a place where you can see what you're going to commit.  It gives you the ability to correct a mistake before it gets committed.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can run the command git status to see how many files have been added.  Or you can run git diff to see what changes have been made to the working directory.  git diff --staged will show what changes have been added to the staging area and compare those changes against the repositorie's last commit.
