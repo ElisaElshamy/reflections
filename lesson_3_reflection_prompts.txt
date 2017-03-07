@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A respository is perfect when you want other to collaborate on a project.  This way they can access your code and even make enhancements to it!
