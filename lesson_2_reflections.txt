@@ -35,3 +35,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 
 Merging two branches together takes the commit history from both of those branches and merges it into the checked out branch.  The commits are then ordered by timestamp.  To know the parent of a particular commit, one can run the git show #commitId command.  It is represented this way in the diagram so we know what are the parents of this commit and it's history of commits.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro of Git's merging is that it takes care of the tedious work of going line by line and figuring out what parts need to be added or deleted.  However, doing a merge manually means you really understand what is changing with the code.
