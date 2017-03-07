@@ -26,3 +26,12 @@ Branches are helpful for having different similar versions of a project.  One ex
 How do the diagrams help you visualize the branch structure?
 
 Diagrams allow me to see what the parents of branches are and where in the development cycle is the code in the branch living.
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+
+Merging two branches together takes the commit history from both of those branches and merges it into the checked out branch.  The commits are then ordered by timestamp.  To know the parent of a particular commit, one can run the git show #commitId command.  It is represented this way in the diagram so we know what are the parents of this commit and it's history of commits.
