@@ -1,2 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work local?
-A respository is perfect when you want other to collaborate on a project.  This way they can access your code and even make enhancements to it!
+
+A respository is perfect when you want others to collaborate on a project.  This way they can access your code and even make enhancements to it!
+
+
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You want to manually pull changes so that you know when you're overwriting your code with updates.  If Git did this automatically, you would constantly loose changes you're working on.
