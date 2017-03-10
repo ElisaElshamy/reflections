@@ -17,3 +17,11 @@ You want to manually pull changes so that you know when you're overwriting your 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A fork is a clone of another repository on GitHub that links to to original repository.  It makes contributing to another repository without changing it directly so much easier.  A clone is a clone of a repository that you want to work on directly.  A branch is like a label to a copy of the code that you can work on while keeping the original in track.  If you do apply the branches code, and it is buggy, it's a lot easier to know where that bug exists.
+
+
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If there are multiple changes, you can use the last known state as a reference to help with merging.
