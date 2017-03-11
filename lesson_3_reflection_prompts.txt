@@ -32,3 +32,11 @@ If there are multiple changes, you can use the last known state as a reference t
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without Git or GitHub collaboration on a project would mean saving a bunch of copies of an entire project on one's local machine.  This could definitely get disorganized very fast and it would be difficult to understand the history of the project.  The only thing I can see being easier is not having to understand Git/GitHub and it's commands but that doesn't really seem very rewarding.
+
+
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You'd want to make changes in a different branch when you're working on a project where you are collaborating with others and you want them to see your changes.  Or if you need your changes to be approved.  The benefits of having the changes in a seperate branch is that it keeps changes very organized and allows for teams to discuss those changes.  Updating directly in master could be great for a bugfix where those changes need to be made and applied asap.
